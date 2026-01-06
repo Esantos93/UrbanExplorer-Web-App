@@ -91,6 +91,21 @@ src/
 git clone https://gits-15.sys.kth.se/iprog-students/cfranze-ebrunius-edsr-puta-HT25-Project.git
 cd cfranze-ebrunius-edsr-puta-HT25-Project
 
+# 🛠️ Setup & API Configuration
+
+For security reasons, the API keys used during development are not shared in this repository. To run the application locally, you must provide your own credentials.
+
+## 1. Obtain API Keys
+* **Geoapify**: Get a free API key from [Geoapify MyProjects](https://myprojects.geoapify.com/).
+* **Google Gemini**: Generate a free API key from [Google AI Studio](https://aistudio.google.com/).
+
+## 2. Environment Setup
+Create a file named `.env` in the **root directory** of the project (out of .src) and add your keys using the following format:
+
+```env
+VITE_GEOAPIFY_API_KEY=your_geoapify_key_here
+VITE_GEMINI_API_KEY=your_gemini_key_here
+
 # Install dependencies
 npm install
 npm install leaflet
