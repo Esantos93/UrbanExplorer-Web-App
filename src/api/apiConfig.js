@@ -1,2 +1,2 @@
-export const GEOAPIFY_API_KEY = process.env.REACT_APP_GEOAPIFY_API_KEY;
-export const GEMINI_API_KEY = process.env.REACT_APP_GEMINI_API_KEY;
+export const GEOAPIFY_API_KEY = import.meta.env.VITE_GEOAPIFY_API_KEY;
+export const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
